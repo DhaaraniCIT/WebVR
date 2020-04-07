@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js " lang="en">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+	<title>login</title>
+ 	<link rel="stylesheet" href="style.css">
+ 	<style type="text/css">
+ 		#alert
+ 		{
+ 			display: none;
+ 		}
+ 	</style>
+</head>
+<body>
+<div class="container">	
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">GUVI</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="home.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="logout.php">Logout</a>
+    </li>
+  </ul>
+</nav>
+	<div class="jumbotron">
+		<h1 class="text-center display-4">Welcome</h1>
+		<h1 class="text-center display-2">User</h1>
+		<h1 class="text-center display-4">You are in Our Home page </h1>
+    <form action="login.php" method="POST">
+        <h3 class="text-center display-4">Click the button Here to Login </h3>
+        <input type="submit" name="submit" class="btn btn-outline-info btn-lg" value="click me" />
+    </form>
+  </div>
+</div>
+</body>
+</html>
